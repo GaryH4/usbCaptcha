@@ -7,9 +7,6 @@
 #include "fonts.h"
 #include "genRandom.h"
 
-#define DR_REG_RNG_BASE1 0x3F435000
-#define DR_REG_RNG_BASE2 0x60035000
-
 void app_main()
 {
     oled_init();
