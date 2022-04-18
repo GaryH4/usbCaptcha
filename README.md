@@ -1,0 +1,6 @@
+# USB Captcha
+使用ESP32-S2
+
+I2C:
+SDA GPIO8
+SCL GPIO9
