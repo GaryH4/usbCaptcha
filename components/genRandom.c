@@ -1,8 +1,8 @@
 /*
-* generate true random number in uint32_t form
-* author: Gary Han
-* date: 2022-04-18
-*/
+ * generate true random number in uint32_t form
+ * author: Gary Han
+ * date: 2022-04-18
+ */
 
 #include <stdio.h>
 #include <stdint.h>
@@ -55,4 +55,3 @@ char *genRandomString(char string[], int length)
     string[length - 1] = '\0';
     return string;
 }
-

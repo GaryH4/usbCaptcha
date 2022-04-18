@@ -7,7 +7,6 @@
 #include "fonts.h"
 #include "genRandom.h"
 
-
 #define DR_REG_RNG_BASE1 0x3F435000
 #define DR_REG_RNG_BASE2 0x60035000
 
@@ -26,14 +25,13 @@ void app_main()
         oled_show_str(64, 18, captcha, &Font_7x10, 1);
         oled_show_str(20, 40, captcha, &Font_11x18, 1);
 
-        vTaskDelay(5000 / portTICK_PERIOD_MS); //TODO: change to 15000ms in production
+        vTaskDelay(5000 / portTICK_PERIOD_MS); // TODO: change to 15000ms in production
         oled_claer();
     }
 
-    //TODO: blink LEDs
-    //TODO: read from usb keyboard
-    //TODO: print oled from usb keyboard
-    //TODO: check keyboard input
-    //TODO: switch usb signal
+    // TODO: blink LEDs
+    // TODO: read from usb keyboard
+    // TODO: print oled from usb keyboard
+    // TODO: check keyboard input
+    // TODO: switch usb signal
 }
-
